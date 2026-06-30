@@ -20,3 +20,7 @@ Recommended: Vercel.
 3. Add New Project.
 4. Import the GitHub repository.
 5. Click Deploy.
+
+
+## v3 fixed import alias
+This version includes `baseUrl` and `paths` in `tsconfig.json` so Vercel can resolve `@/components/...` imports.
